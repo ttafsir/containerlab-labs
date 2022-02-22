@@ -1,0 +1,16 @@
+---
+name: csr-3-nodes
+topology:
+  nodes:
+    csr1:
+      kind: vr-csr
+      image: vrnetlab/vr-csr:16.04.01
+    csr2:
+      kind: vr-csr
+      image: vrnetlab/vr-csr:16.04.01
+    csr3:
+      kind: vr-csr
+      image: vrnetlab/vr-csr:16.04.01
+  links:
+    - endpoints: ["csr1:eth1", "csr2:eth1"]
+    - endpoints: ["csr1:eth2", "csr3:eth1"]

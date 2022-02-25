@@ -4,19 +4,19 @@ topology:
   nodes:
     csr1:
       kind: vr-csr
-      image: vrnetlab/vr-csr:16.04.01
+      image: vrnetlab/vr-csr:16.12.02s
     csr2:
       kind: vr-csr
-      image: vrnetlab/vr-csr:16.04.01
+      image: vrnetlab/vr-csr:16.12.02s
       env:
         # boot delay in seconds
         BOOT_DELAY: 30
     csr3:
       kind: vr-csr
-      image: vrnetlab/vr-csr:16.04.01
+      image: vrnetlab/vr-csr:16.12.02s
       env:
         # boot delay in seconds
-        BOOT_DELAY: 30
+        BOOT_DELAY: 45
   links:
     - endpoints: ["csr1:eth1", "csr2:eth1"]
     - endpoints: ["csr1:eth2", "csr3:eth1"]

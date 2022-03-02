@@ -1,5 +1,5 @@
 ---
-name: csr-3-nodes
+name: testlab
 topology:
   nodes:
     csr1:

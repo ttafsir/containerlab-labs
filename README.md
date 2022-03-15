@@ -4,10 +4,10 @@ This repository contains the topologies for the Virtual Labs to be used for inst
 
 ## Useful links
 
-[Containerlabs](https://containerlab.dev/)
-[Vrnetlab](https://github.com/vrnetlab/vrnetlab)
-[CML](https://cml2.dev.wwtatc.local/) **(Requires VPN access)**
-[Eve-ng](https://github.com/ttafsir/evengsdk)
+* [Containerlabs](https://containerlab.dev/)
+* [Vrnetlab](https://github.com/vrnetlab/vrnetlab)
+* [CML](https://cml2.dev.wwtatc.local/) **(Requires VPN access)**
+* [Eve-ng](https://github.com/ttafsir/evengsdk)
 
 ## Authors
 

@@ -19,4 +19,4 @@ topology:
         BOOT_DELAY: 45
   links:
     - endpoints: ["csr1:eth1", "csr2:eth1"]
-    - endpoints: ["csr1:eth2", "csr3:eth1"]
+    - endpoints: ["csr2:eth2", "csr3:eth1"]
